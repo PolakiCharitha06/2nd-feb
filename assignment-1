@@ -1,6 +1,6 @@
 A=[]
-m=int(input('rows'))
-n=int(input('columns'))
+m=int(input('enter no.of rows'))
+n=int(input('enter no.of columns'))
 for i in  range(m):
     row=[]
     for j in range(n):
@@ -9,8 +9,8 @@ for i in  range(m):
     A.append(row)
 print(A)
 B=[]
-m=int(input('rows'))
-n=int(input('columns'))
+m=int(input('enter no.of rows'))
+n=int(input('enter no.of columns'))
 for i in range(m):
     row=[]
     for j in range(n):
